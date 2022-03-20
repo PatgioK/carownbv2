@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @peep %>
+
+<div>
+  <%= link_to "Edit this peep", edit_peep_path(@peep) %> |
+  <%= link_to "Back to peeps", peeps_path %>
+
+  <%= button_to "Destroy this peep", @peep, method: :delete %>
+</div>
