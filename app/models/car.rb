@@ -1,3 +1,3 @@
 class Car < ApplicationRecord
-  belongs_to :Peep
+  belongs_to :peep
 end
