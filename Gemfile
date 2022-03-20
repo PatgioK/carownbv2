@@ -27,6 +27,11 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+
+# JSONAPI-Serializer forked project of netflix fast json api
+# https://github.com/jsonapi-serializer/jsonapi-serializer
+gem 'jsonapi-serializer'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
